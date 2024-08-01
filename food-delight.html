@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./food-delight.css">
+    <title>Food-Delight</title>
+</head>
+<body>
+    <div class="header">
+        <p class="logo">Food Delight</p>
+        <div class="cartimg">
+            <i class="fa-solid fa-cart-shopping cartlogo" onclick="visible()"></i>
+            <p id="count">0</p>
+        </div>
+    </div>
+    <div class="body">
+        <p class="heading">Discover the Best Food</p>
+        <div id="cartitems"></div>
+       <div id="slide">
+        <i class="fa-solid fa-x" onclick="disapperance()"></i>
+        <div class="slidehead">
+            <p>My Cart</p>
+        </div>
+        <div id="slidedata">Your cart is empty</div>
+        <div class="slidefoot">
+            <b >Total</b>
+            <h3 id="total">Rs 0.00</h3>
+        </div>
+       </div>
+    </div>
+    <script src="./food-delight.js"></script>
+</body>
+</html>

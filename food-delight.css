@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    display:flex;
+    align-items: center;
+    background: red;
+    color: white;
+}
+.logo{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    left: 100PX;
+    padding: 5px;
+}
+.cartimg{
+    display: flex;
+    position: relative;
+    left: 850px;
+    width: 70px;
+    background: white;
+}
+.cartlogo{
+    color: red;
+    padding: 5px ;
+}
+#count{
+    color: white;
+    width: 30px;
+    padding: 5px ;
+    border-radius: 50%;
+    background-color:red;
+    text-align: center;
+}
+.body{
+    background: gray;
+}
+.heading{
+    color: white;
+    padding-top: 10px;
+    position: absolute;
+    left: 170px;
+}
+#slide{
+   background: wheat;
+    text-align: center;
+    width: 300px;
+    border-radius: 5px;
+    padding: 10px 5px;
+    position: relative;
+    left: 1048px;
+    bottom: 435px;
+    display: none;
+}
+.fa-x{
+    color: red;
+    position: relative;
+    left: 130px;
+    cursor: pointer;
+}
+.slidehead{
+    width: 200px;
+    height: 20px;
+    background: red;
+    text-align: center;
+    color: white;
+    position: relative;
+    left: 50px;
+}
+#slidedata{
+    margin: 10px 0;
+}
+.slidefoot{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    border-top: 2px solid;
+    margin: 10px 5px;
+    padding-top: 5px;
+}
+#cartitems{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-top: 40px;
+    margin: 0 100px 20px ;
+    justify-content: space-around;
+}
+figure{
+    width: 280px;
+    height: 180px;
+    background: white;
+    padding: 5px;
+    margin: 5px;
+    overflow: hidden;
+    
+}
+figure img{
+    width: 270px;
+    height: 130px;
+    transition: all 0.5s linear;
+    &:hover{
+        scale: 1.1;
+    }
+}
+h3{
+    color: red;
+    flex: 1;
+}
+.figslide{
+    display: flex;
+}
+.bodycart{
+    background: green;
+    color: white;
+    width: 30px;
+    padding: 5px;
+    position:relative;
+    bottom: 3px;
+}
+.figure{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px 5px;
+    overflow: hidden;
+}
+.cartfigure{
+    width: 70px;
+    height:70px;
+    border-radius:70px;
+    transition: all 0.5s linear;
+    &:hover{
+        scale: 1.1;
+    }
+}
+[id ^= a]{
+width: 50px;
+}
+.fa-trash:hover{
+    color: red;
+    cursor: pointer;
+}
